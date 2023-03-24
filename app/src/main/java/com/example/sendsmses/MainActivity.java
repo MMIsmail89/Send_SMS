@@ -5,6 +5,7 @@ import static com.example.sendsmses.R.*;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -21,6 +22,9 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.telephony.SmsManager;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -259,4 +263,32 @@ public class MainActivity extends AppCompatActivity {
         });
         builder.show();
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater_mainMenu = getMenuInflater();
+
+        inflater_mainMenu.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+
+        switch (item.getItemId())
+        {
+            case R.id.main_menu_author:
+                Intent intent = new Intent(MainActivity.this,
+                        authorMagdi.class);
+                startActivity(intent);
+
+                return true;
+
+        } // switch (item.getItemId())
+        return false; // if the switch is not any true
+    }
+    //
 }

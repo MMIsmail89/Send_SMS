@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPrimaryColor"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_tv_newContactuserName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@color/lightPrimaryColor"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/developed_by_dr_moustafa_magdi"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/main_iv_userMood"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_weight="3"
+        android:clickable="true"
+        android:contentDescription="@string/user_mood_will_appear_here"
+        app:srcCompat="@drawable/magdi_android" />
+
+    <ScrollView
+        android:id="@+id/author_sc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="6dp"
+        android:layout_weight="4">
+
+
+        <TextView
+            android:id="@+id/main_tv_advertisement"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:background="@color/lightPrimaryColor"
+            android:gravity="left"
+            android:text="@string/advertisement"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+
+
+            android:lineSpacingMultiplier="1.5"
+            android:padding="16dp"/>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/author_LL_V2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/author_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            android:background="@color/lightPrimaryColor"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/contacts"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/author_LL_H"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/author_iv_linkin"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/contact_webpage"
+                app:srcCompat="@drawable/linkedinhigh" />
+
+            <ImageView
+                android:id="@+id/author_iv_githup"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/contact_webpage"
+                app:srcCompat="@drawable/githubmark" />
+
+
+            <ImageView
+                android:id="@+id/author_iv_gmail"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/contact_webpage"
+                app:srcCompat="@drawable/icons_gmail" />
+
+            <ImageView
+                android:id="@+id/author_iv_loction"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/contact_location"
+                app:srcCompat="@drawable/location" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

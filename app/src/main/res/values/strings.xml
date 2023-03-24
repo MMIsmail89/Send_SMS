@@ -27,4 +27,46 @@
     <string name="RADIO_OFF">RADIO OFF!</string>
 
 
+
+    <string name="create_new_contact">Create new contact</string>
+    <string name="contact_application">Contact Application</string>
+    <string name="user_mood_will_appear_here">user mood will appear here</string>
+    <string name="contact_webpage">contact webpage</string>
+    <string name="contact_location">contact location</string>
+    <string name="contact_phone_number">contact phone number</string>
+    <string name="further_contact">Further Contact</string>
+    <string name="fill_all_fields_valid_data">Please fill all fields with a valid data</string>
+    <string name="no_data_passed_through">No data passed through!</string>
+    <string name="new_user_name">user name:</string>
+    <string name="developed_by_dr_moustafa_magdi">developed by: Dr. Moustafa Magdi</string>
+    <string name="advertisement">\u2022 Looking for a reliable and experienced Android developer for your next project? Look no further! As a freelance Android developer, I have years of experience in developing high-quality mobile applications for clients around the world. \n\u2022 Whether you need a simple app or a complex project, I can provide you with the perfect solution to meet your needs.\n\u2022 With my expertise in Java and Kotlin programming languages, I can create applications with excellent performance and functionality.\n\u2022 From design to implementation, I ensure that your app meets your requirements and exceeds your expectations.\n\u2022 You can reach me by email, or by phone to discuss your project requirements. You can also check out my LinkedIn page, and GitHub page to see some of my previous projects and client feedback.\n\u2022 Don\'t hesitate to contact me today to get started on your Android app development project!</string>
+    <string name="contacts">Contacts</string>
+    <string name="address_Minia_engineering_school">كلية الهندسة, جامعة المنيا, الطريق الزراعى, محافظة المنيا, مصر</string>
+
+    <string name="developerContacts">
+    \u2022 Developer contacts:,\n
+    \u2022 Name: Dr. Mostafa Magdi,\n
+    \u2022 Android Developer,\n
+    \u2022 Linkedin: https://www.linkedin.com/in/moustafa-magdi-5742a1a9/\n
+    \u2022 GitHub: https://github.com/MMIsmail89\n
+    \u2022 E-mail: magdi.office@gmail.com
+    </string>
+
+
+
+
+
+
+
+    <string name="advertisement_R2"><![CDATA[
+    <p style="text-align:justify">
+    &#8226; Looking for a reliable and experienced Android developer for your next project? Look no further! As a freelance Android developer, I have years of experience in developing high-quality mobile applications for clients around the world.<br/>
+    &#8226; Whether you need a simple app or a complex project, I can provide you with the perfect solution to meet your needs. With my expertise in Java and Kotlin programming languages, I can create applications with excellent performance and functionality. From design to implementation, I ensure that your app meets your requirements and exceeds your expectations.<br/>
+    &#8226; You can reach me by email, or by phone to discuss your project requirements. You can also check out my LinkedIn page, and GitHub page to see some of my previous projects and client feedback.<br/>
+    &#8226; Don\'t hesitate to contact me today to get started on your Android app development project!.</p>
+    ]]></string>
+    <string name="developer_contacts_copied">The Developer Contacts are copied!</string>
+
+
+
 </resources>
