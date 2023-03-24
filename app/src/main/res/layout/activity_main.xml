@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="14dp">
+
+    <EditText
+        android:id="@+id/main_et_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_message"/>
+
+    <EditText
+        android:id="@+id/main_et_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/main_et_message"
+        android:hint="@string/enter_telephone_number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_et_number"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/purple_500"
+
+        android:text="@string/send"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textAllCaps="false"
+        android:text="@string/check_permission"
+
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@id/main_btn_send"/>
+
+    <TextView
+        android:id="@+id/main_tv_sentFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/main_btn_check"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/send_feedback"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/main_tv_deliveredFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/main_tv_sentFeedback"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/delivered_feedback"
+        android:textSize="16sp" />
+
+</RelativeLayout>

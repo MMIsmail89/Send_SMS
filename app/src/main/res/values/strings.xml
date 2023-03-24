@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Send SMSes</string>
+    <string name="enter_message">Enter message!</string>
+    <string name="enter_telephone_number">Enter telephone number!</string>
+    <string name="send">Send SMS</string>
+
+
+    <string name="granted_permission_R2">Permission granted!! Thank you!!\n\(ActivityResultLauncher\)</string>
+    <string name="never_show">We will never show it again!\n\(ActivityResultLauncher\)</string>
+
+    <string name="please_permit_it">>>This permission is important to send SMS!\n>>Please permit it!\n</string>
+
+    <string name="dialog_title">Important permission Required!</string>
+    <string name="no_thanks">NO THANKS</string>
+    <string name="ok">OK</string>
+    <string name="Cannot_be_done">Cannot be done!\n\(onRequestPermissionsResult\)</string>
+    <string name="check_permission">Check permission</string>
+    <string name="till_now_no_permission">till now, no permission, press check permission to Send SMS</string>
+    <string name="delivered_feedback">delivered feedback!</string>
+    <string name="send_feedback">send feedback!</string>
+    <string name="SMS_SENT">SMS SENT!</string>
+    <string name="SMS_DELIVERED">SMS DELIVERED!</string>
+    <string name="DELIVERED_CANCEL">DELIVERED CANCEL!</string>
+    <string name="GENERIC_FAILURE">GENERIC FAILURE!</string>
+    <string name="NO_SERVICE">NO SERVICE!</string>
+    <string name="NULL_PDU">NULL PDU!</string>
+    <string name="RADIO_OFF">RADIO OFF!</string>
+
+
+</resources>
